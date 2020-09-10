@@ -9,7 +9,43 @@
 
 h5{
     display: inline;
+    font-size: 2rem !important;
 }
+#pokemonDescripcion{
+  font-size: 1.5rem;
+}
+
+#numeroPokemonCard{
+  display: block;
+  line-height: 0.5rem ;
+  margin-top: 0.5rem;
+  
+}
+
+.card{
+  margin: 0 30px 30px 0px;
+}
+
+.img-container{
+  background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card-img-top{
+  margin-top: 10px;
+    max-width: 90%;
+    margin-left: 10px;
+}
+
+.card-body{
+  text-align: center;
+  padding: 0.50rem !important;
+}
+
 .tipo{
     height: 15px;
     width: 15px;
@@ -33,12 +69,12 @@ h5{
 
 #myBtn:hover{
     opacity: 1;
+    transform: scale(1.1);
 }
 
 .contenedor{
   display: flex;
 }
-
 
 .modal {
     display: none; /* Hidden by default */
@@ -80,7 +116,30 @@ h5{
   }
   .container{
     margin-top: 5%;
+    margin-right: 0% !important;
   }
   #pokemonDescripcion{
     text-align: justify;
+  }
+  #listaTipos{
+    margin-top: 5rem;
+    padding-left: 50px;
+  }
+  
+  li{
+    list-style: none;
+    font-size: 2rem;
+    border-radius: 20px;
+    padding: 0px 10px;
+  }
+  #prueba{
+    background-color: white;
+  }
+  #prueba2{
+    background-color: white;
+    margin: 10px 0px 0px 0px
+  }
+
+  #imagenPokemon{
+    border-right: 3px dotted black;
   }
